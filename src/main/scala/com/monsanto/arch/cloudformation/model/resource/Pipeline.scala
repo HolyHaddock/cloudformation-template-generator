@@ -89,7 +89,7 @@ object ParameterValue {
 case class PipelineObject(
                            Fields: Seq[Field],
                            Id: String,
-                           Name: String
+                           Name: Token[String]
                          )
 
 object PipelineObject {
